@@ -1,1 +1,55 @@
-/* Compile your LESS file! */
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav .fas {
+  font-size: 15px;
+  color: dodgerblue;
+}
+.TopImage {
+  background-image: url("../less/images/attempt.jpg");
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 110px;
+}
+.TopImage h1 {
+  text-shadow: 0 0 3px dodgerblue;
+}
+h1 {
+  text-align: center;
+  height: auto;
+}
+h2 {
+  text-align: center;
+  height: auto;
+  text-shadow: 0 0 3px dodgerblue;
+  font-family: 'Fascinate', cursive;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+.bottom h4 {
+  font-size: 1rem;
+  text-shadow: 0 0 3px dodgerblue;
+}
+.bottom .fab {
+  color: dodgerblue;
+}
+.bottom .fas {
+  color: dodgerblue;
+}
+li {
+  text-align: center;
+}
